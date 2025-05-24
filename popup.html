@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Nature has entered the chat </title>
+  <style>
+    body {
+      width: 220px;
+      height: 100px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    
+    h3 {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    
+    .description {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      background-color: rgb(0, 255, 98);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover {
+      background-color: #000000;
+    }
+    
+    #status {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      text-align: center;
+      font-size: 12px;
+      min-height: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Nature has entered the chat</h3>
+  
+  <div class="description">
+    Click the button below to take a break
+  </div>
+  
+  <button id="show-popups">stop working</button>
+  <div id="status"></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
